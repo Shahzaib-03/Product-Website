@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LootLine — Home</title>
+  <link rel="stylesheet" href="BSAI25043_style.css" />
+</head>
+<body>
+  <!-- Section 0: Header / Navbar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">LootLine</div>
+      <nav class="nav">
+        <a href="BSAI25043_Home.html" class="nav-btn active">HOME</a>
+        <a href="BSAI25043_Products.html" class="nav-btn">PRODUCTS</a>
+        <a href="BSAI25043_Contact.html" class="nav-btn">ABOUT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section 1: About us (horizontal image with site name) -->
+  <section class="hero about-hero">
+    <!-- background-image set via CSS to BSAI25043_image0.png -->
+    <div class="hero-overlay">
+      <h1 class="site-title">LootLine — Trendy Finds, Everyday Prices</h1>
+      <p class="hero-sub">Curated gadgets & lifestyle products for modern living</p>
+    </div>
+  </section>
+
+  <!-- Section 2: Check Our Products (stylized background only, no image) -->
+  <section class="products-check">
+    <div class="products-image">
+      <!-- Removed image: now using CSS background only -->
+      <div class="products-cta">
+        <h2>Check Our Products</h2>
+        <p>From ambient lamps to smart accessories — quality you can trust.</p>
+        <a class="btn" href="BSAI25043_Products.html">See All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Footer with contact details -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Contact</h3>
+        <p>Cell: +92-300-1234567</p>
+        <p>Email: contact@lootline.store</p>
+        <p>Location: Lahore, Pakistan</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="BSAI25043_Home.html">Home</a><br />
+        <a href="BSAI25043_Products.html">Products</a><br />
+        <a href="BSAI25043_Contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span id="year"></span> LootLine — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    // set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
